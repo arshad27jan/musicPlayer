@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Spotifi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><i class="fa-solid fa-headphones fa-flip"></i>&nbsp;Musify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist"></div>
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img>
+                    <span class="songName"> me Love you</span>
+                    <span class="songListPlay">
+                        <span class="timeStamp">05:34 <i id="1" class="fa-regular songItemPlay fa-circle-play "></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img>
+                    <span class="songName"> me Love you</span>
+                    <span class="songListPlay">
+                        <span class="timeStamp">05:34 <i id="2" class="fa-regular songItemPlay fa-circle-play "></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img>
+                    <span class="songName"> me Love you</span>
+                    <span class="songListPlay">
+                        <span class="timeStamp">05:34 <i id="3" class="fa-regular songItemPlay fa-circle-play "></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img>
+                    <span class="songName"> me Love you</span>
+                    <span class="songListPlay">
+                        <span class="timeStamp">05:34 <i id="4" class="fa-regular songItemPlay fa-circle-play "></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img>
+                    <span class="songName"> me Love you</span>
+                    <span class="songListPlay">
+                        <span class="timeStamp">05:34 <i id="5" class="fa-regular songItemPlay fa-circle-play "></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img>
+                    <span class="songName"> me Love you</span>
+                    <span class="songListPlay">
+                        <span class="timeStamp">05:34 <i id="6" class="fa-regular songItemPlay fa-circle-play "></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img>
+                    <span class="songName"> me Love you</span>
+                    <span class="songListPlay">
+                        <span class="timeStamp">05:34 <i id="7" class="fa-regular songItemPlay fa-circle-play "></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img>
+                    <span class="songName"> me Love you</span>
+                    <span class="songListPlay">
+                        <span class="timeStamp">05:34 <i id="8" class="fa-regular songItemPlay fa-circle-play "></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img>
+                    <span class="songName"> me Love you</span>
+                    <span class="songListPlay">
+                        <span class="timeStamp">05:34 <i id="9" class="fa-regular songItemPlay fa-circle-play "></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img>
+                    <span class="songName"> me Love you</span>
+                    <span class="songListPlay">
+                        <span class="timeStamp">05:34 <i id="10" class="fa-regular songItemPlay fa-circle-play "></i></span>
+                    </span>
+                </div>
+            </div>
+        <div class="songBanner"></div>
+    </div>
+    <!-- progressbar -->
+    <div class="bottom">
+        <input type="range" class="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i id="previous" class="fa-solid fa-3x fa-backward-step"></i>
+            <i class="fa-regular fa-3x fa-circle-play" id="masterPlay"></i>
+            <i id="next" class="fa-solid fa-3x fa-forward-step"></i>
+        </div>
+        <div class="songInfo">
+            <img src="./images/playing.gif" alt="" width="42px" id="gif"><span id="masterSongName"></span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/8f9ccff94a.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
